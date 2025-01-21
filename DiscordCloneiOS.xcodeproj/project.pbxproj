@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		426C446E2D3F8CC30054DEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426C44552D3F8CBF0054DEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426C445C2D3F8CBF0054DEE1;
+			remoteInfo = DiscordCloneiOS;
+		};
+		426C44782D3F8CC30054DEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426C44552D3F8CBF0054DEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426C445C2D3F8CBF0054DEE1;
+			remoteInfo = DiscordCloneiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426C445D2D3F8CBF0054DEE1 /* DiscordCloneiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscordCloneiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426C446D2D3F8CC30054DEE1 /* DiscordCloneiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscordCloneiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426C44772D3F8CC30054DEE1 /* DiscordCloneiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscordCloneiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		426C445F2D3F8CBF0054DEE1 /* DiscordCloneiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DiscordCloneiOS;
+			sourceTree = "<group>";
+		};
+		426C44702D3F8CC30054DEE1 /* DiscordCloneiOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DiscordCloneiOSTests;
+			sourceTree = "<group>";
+		};
+		426C447A2D3F8CC30054DEE1 /* DiscordCloneiOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DiscordCloneiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426C445A2D3F8CBF0054DEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C446A2D3F8CC30054DEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C44742D3F8CC30054DEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426C44542D3F8CBF0054DEE1 = {
+			isa = PBXGroup;
+			children = (
+				426C445F2D3F8CBF0054DEE1 /* DiscordCloneiOS */,
+				426C44702D3F8CC30054DEE1 /* DiscordCloneiOSTests */,
+				426C447A2D3F8CC30054DEE1 /* DiscordCloneiOSUITests */,
+				426C445E2D3F8CBF0054DEE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		426C445E2D3F8CBF0054DEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426C445D2D3F8CBF0054DEE1 /* DiscordCloneiOS.app */,
+				426C446D2D3F8CC30054DEE1 /* DiscordCloneiOSTests.xctest */,
+				426C44772D3F8CC30054DEE1 /* DiscordCloneiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426C445C2D3F8CBF0054DEE1 /* DiscordCloneiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C44812D3F8CC30054DEE1 /* Build configuration list for PBXNativeTarget "DiscordCloneiOS" */;
+			buildPhases = (
+				426C44592D3F8CBF0054DEE1 /* Sources */,
+				426C445A2D3F8CBF0054DEE1 /* Frameworks */,
+				426C445B2D3F8CBF0054DEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				426C445F2D3F8CBF0054DEE1 /* DiscordCloneiOS */,
+			);
+			name = DiscordCloneiOS;
+			packageProductDependencies = (
+			);
+			productName = DiscordCloneiOS;
+			productReference = 426C445D2D3F8CBF0054DEE1 /* DiscordCloneiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426C446C2D3F8CC30054DEE1 /* DiscordCloneiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C44842D3F8CC30054DEE1 /* Build configuration list for PBXNativeTarget "DiscordCloneiOSTests" */;
+			buildPhases = (
+				426C44692D3F8CC30054DEE1 /* Sources */,
+				426C446A2D3F8CC30054DEE1 /* Frameworks */,
+				426C446B2D3F8CC30054DEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426C446F2D3F8CC30054DEE1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				426C44702D3F8CC30054DEE1 /* DiscordCloneiOSTests */,
+			);
+			name = DiscordCloneiOSTests;
+			packageProductDependencies = (
+			);
+			productName = DiscordCloneiOSTests;
+			productReference = 426C446D2D3F8CC30054DEE1 /* DiscordCloneiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426C44762D3F8CC30054DEE1 /* DiscordCloneiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C44872D3F8CC30054DEE1 /* Build configuration list for PBXNativeTarget "DiscordCloneiOSUITests" */;
+			buildPhases = (
+				426C44732D3F8CC30054DEE1 /* Sources */,
+				426C44742D3F8CC30054DEE1 /* Frameworks */,
+				426C44752D3F8CC30054DEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426C44792D3F8CC30054DEE1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				426C447A2D3F8CC30054DEE1 /* DiscordCloneiOSUITests */,
+			);
+			name = DiscordCloneiOSUITests;
+			packageProductDependencies = (
+			);
+			productName = DiscordCloneiOSUITests;
+			productReference = 426C44772D3F8CC30054DEE1 /* DiscordCloneiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426C44552D3F8CBF0054DEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					426C445C2D3F8CBF0054DEE1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					426C446C2D3F8CC30054DEE1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 426C445C2D3F8CBF0054DEE1;
+					};
+					426C44762D3F8CC30054DEE1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 426C445C2D3F8CBF0054DEE1;
+					};
+				};
+			};
+			buildConfigurationList = 426C44582D3F8CBF0054DEE1 /* Build configuration list for PBXProject "DiscordCloneiOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426C44542D3F8CBF0054DEE1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 426C445E2D3F8CBF0054DEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426C445C2D3F8CBF0054DEE1 /* DiscordCloneiOS */,
+				426C446C2D3F8CC30054DEE1 /* DiscordCloneiOSTests */,
+				426C44762D3F8CC30054DEE1 /* DiscordCloneiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426C445B2D3F8CBF0054DEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C446B2D3F8CC30054DEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C44752D3F8CC30054DEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426C44592D3F8CBF0054DEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C44692D3F8CC30054DEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C44732D3F8CC30054DEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426C446F2D3F8CC30054DEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426C445C2D3F8CBF0054DEE1 /* DiscordCloneiOS */;
+			targetProxy = 426C446E2D3F8CC30054DEE1 /* PBXContainerItemProxy */;
+		};
+		426C44792D3F8CC30054DEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426C445C2D3F8CBF0054DEE1 /* DiscordCloneiOS */;
+			targetProxy = 426C44782D3F8CC30054DEE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		426C447F2D3F8CC30054DEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		426C44802D3F8CC30054DEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426C44822D3F8CC30054DEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiscordCloneiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UTK6J592W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.DiscordCloneiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426C44832D3F8CC30054DEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiscordCloneiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UTK6J592W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.DiscordCloneiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		426C44852D3F8CC30054DEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UTK6J592W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.DiscordCloneiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscordCloneiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiscordCloneiOS";
+			};
+			name = Debug;
+		};
+		426C44862D3F8CC30054DEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UTK6J592W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.DiscordCloneiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscordCloneiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiscordCloneiOS";
+			};
+			name = Release;
+		};
+		426C44882D3F8CC30054DEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UTK6J592W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.DiscordCloneiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscordCloneiOS;
+			};
+			name = Debug;
+		};
+		426C44892D3F8CC30054DEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UTK6J592W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.DiscordCloneiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscordCloneiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426C44582D3F8CBF0054DEE1 /* Build configuration list for PBXProject "DiscordCloneiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C447F2D3F8CC30054DEE1 /* Debug */,
+				426C44802D3F8CC30054DEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426C44812D3F8CC30054DEE1 /* Build configuration list for PBXNativeTarget "DiscordCloneiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C44822D3F8CC30054DEE1 /* Debug */,
+				426C44832D3F8CC30054DEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426C44842D3F8CC30054DEE1 /* Build configuration list for PBXNativeTarget "DiscordCloneiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C44852D3F8CC30054DEE1 /* Debug */,
+				426C44862D3F8CC30054DEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426C44872D3F8CC30054DEE1 /* Build configuration list for PBXNativeTarget "DiscordCloneiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C44882D3F8CC30054DEE1 /* Debug */,
+				426C44892D3F8CC30054DEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426C44552D3F8CBF0054DEE1 /* Project object */;
+}
